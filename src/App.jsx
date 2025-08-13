@@ -3,6 +3,7 @@ import ScoreBar from "./components/ScoreBar.jsx";
 import QuestionView from "./components/QuestionView.jsx";
 import Hand from "./components/Hand.jsx";
 import Store from "./components/Store.jsx";
+import HomePage from "./components/HomePage.jsx";
 import {
   makeInitialState,
   getQuestion,
@@ -14,6 +15,7 @@ import {
 import { AllEffects, computeScoreDelta } from "./game/effects.js";
 
 export default function App() {
+  const [started, setStarted] = useState(false);
   const [state, setState] = useState(makeInitialState());
   const [flags, setFlags] = useState([]);
   const [scoreDelta, setScoreDelta] = useState(0);
@@ -96,6 +98,11 @@ export default function App() {
   function reset() {
     setState(makeInitialState());
     setFlags([]);
+    setStarted(false);
+  }
+
+  if (!started) {
+    return <HomePage onStart={() => setStarted(true)} />;
   }
 
   return (
