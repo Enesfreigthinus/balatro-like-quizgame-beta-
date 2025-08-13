@@ -10,7 +10,8 @@
       "Alan Shepard"
     ],
     "answerIndex": 0,
-    "basePoints": 100
+    "basePoints": 100,
+    "hint": "Amerikalı birisi.."
   },
   {
     "id": 2,
@@ -18,7 +19,8 @@
     "question": "Hangi ülke İstanbul'a aittir?",
     "options": ["Greece", "Turkey", "Azerbaijan", "Bulgaria"],
     "answerIndex": 1,
-    "basePoints": 80
+    "basePoints": 80,
+    "hint": "Hem Asya hem de Avrupada toprağı olan bir ülke."
   },
   {
     "id": 3,
@@ -26,6 +28,347 @@
     "question": "Bir futbol maçında bir takım en fazla kaç oyuncuyla sahada bulunabilir?",
     "options": ["9", "10", "11", "12"],
     "answerIndex": 2,
-    "basePoints": 90
+    "basePoints": 90,
+    "hint": "4-3-3, 3-5-2 gibi dizilişler mevcut"
+  },
+  {
+    "id": 4,
+    "category": "Tarih",
+    "question": "Osmanlı Devleti hangi yıl yıkılmıştır?",
+    "options": ["1918", "1920", "1922", "1923"],
+    "answerIndex": 2,
+    "basePoints": 85,
+    "hint": "Cumhuriyet ilanından hemen önce"
+  },
+  {
+    "id": 5,
+    "category": "Bilim",
+    "question": "Işığın hızı yaklaşık olarak saniyede kaç kilometredir?",
+    "options": ["150.000", "300.000", "450.000", "600.000"],
+    "answerIndex": 1,
+    "basePoints": 88,
+    "hint": "3 ile başlıyor"
+  },
+  {
+    "id": 6,
+    "category": "Spor",
+    "question": "Bir futbol maçında bir takım en fazla kaç oyuncuyla sahada bulunabilir?",
+    "options": ["9", "10", "11", "12"],
+    "answerIndex": 2,
+    "basePoints": 90,
+    "hint": "4-3-3, 3-5-2 gibi dizilişler mevcut"
+  },
+  {
+    "id": 7,
+    "category": "Genel Kültür",
+    "question": "Dünyanın en büyük okyanusu hangisidir?",
+    "options": ["Atlantik", "Hint", "Büyük Okyanus", "Arktik"],
+    "answerIndex": 2,
+    "basePoints": 77,
+    "hint": "Pasifik olarak da bilinir"
+  },
+  {
+    "id": 8,
+    "category": "Bilim",
+    "question": "DNA'nın çift sarmal yapısını kim keşfetmiştir?",
+    "options": [
+      "Newton ve Leibniz",
+      "Watson ve Crick",
+      "Curie ve Rutherford",
+      "Einstein ve Bohr"
+    ],
+    "answerIndex": 1,
+    "basePoints": 83,
+    "hint": "İki bilim insanı, 1953"
+  },
+  {
+    "id": 9,
+    "category": "Tarih",
+    "question": "İstanbul hangi yılda fethedilmiştir?",
+    "options": ["1453", "1071", "1299", "1923"],
+    "answerIndex": 0,
+    "basePoints": 89,
+    "hint": "Fatih Sultan Mehmet"
+  },
+  {
+    "id": 10,
+    "category": "Spor",
+    "question": "Basketbol sahasında bir takım aynı anda en fazla kaç oyuncu bulundurabilir?",
+    "options": ["4", "5", "6", "7"],
+    "answerIndex": 1,
+    "basePoints": 74,
+    "hint": "Pozisyonlar arasında pivot da vardır"
+  },
+  {
+    "id": 11,
+    "category": "Genel Kültür",
+    "question": "Mona Lisa tablosunu kim yapmıştır?",
+    "options": ["Van Gogh", "Picasso", "Leonardo da Vinci", "Rembrandt"],
+    "answerIndex": 2,
+    "basePoints": 87,
+    "hint": "Rönesans döneminde yaşamış"
+  },
+  {
+    "id": 12,
+    "category": "Bilim",
+    "question": "Su hangi sıcaklıkta donar?",
+    "options": ["0°C", "100°C", "4°C", "-5°C"],
+    "answerIndex": 0,
+    "basePoints": 72,
+    "hint": "Derece Celsius"
+  },
+  {
+    "id": 13,
+    "category": "Tarih",
+    "question": "Birinci Dünya Savaşı hangi yıllar arasında olmuştur?",
+    "options": ["1914-1918", "1939-1945", "1900-1905", "1920-1925"],
+    "answerIndex": 0,
+    "basePoints": 84,
+    "hint": "20. yüzyılın başlarında"
+  },
+  {
+    "id": 14,
+    "category": "Spor",
+    "question": "Teniste en yüksek skor değerine ne denir?",
+    "options": ["Love", "Ace", "Match Point", "Deuce"],
+    "answerIndex": 1,
+    "basePoints": 79,
+    "hint": "Servis ile doğrudan sayı"
+  },
+  {
+    "id": 15,
+    "category": "Genel Kültür",
+    "question": "Hangi ülke yüzölçümü bakımından en büyüktür?",
+    "options": ["Kanada", "Çin", "Rusya", "ABD"],
+    "answerIndex": 2,
+    "basePoints": 90,
+    "hint": "Avrasya'da yer alır"
+  },
+  {
+    "id": 16,
+    "category": "Bilim",
+    "question": "Elektrik akımının birimi nedir?",
+    "options": ["Volt", "Amper", "Ohm", "Watt"],
+    "answerIndex": 1,
+    "basePoints": 75,
+    "hint": "A harfi ile başlar"
+  },
+  {
+    "id": 17,
+    "category": "Tarih",
+    "question": "Soğuk Savaş hangi iki ülke arasında yaşanmıştır?",
+    "options": [
+      "ABD ve SSCB",
+      "ABD ve Çin",
+      "SSCB ve Japonya",
+      "ABD ve Almanya"
+    ],
+    "answerIndex": 0,
+    "basePoints": 82,
+    "hint": "Nükleer gerilim"
+  },
+  {
+    "id": 18,
+    "category": "Spor",
+    "question": "Formula 1'de şampiyon olan ilk Türk pilot kimdir?",
+    "options": ["Yok", "Kenan Sofuoğlu", "Mehmet Erhan", "Ahmet Can"],
+    "answerIndex": 0,
+    "basePoints": 80,
+    "hint": "Henüz böyle bir şampiyon yok"
+  },
+  {
+    "id": 19,
+    "category": "Genel Kültür",
+    "question": "Bir yılda kaç hafta vardır?",
+    "options": ["50", "51", "52", "53"],
+    "answerIndex": 2,
+    "basePoints": 76,
+    "hint": "365 gün üzerinden hesapla"
+  },
+  {
+    "id": 20,
+    "category": "Bilim",
+    "question": "Güneş sisteminde halkaları ile ünlü gezegen hangisidir?",
+    "options": ["Mars", "Satürn", "Uranüs", "Jüpiter"],
+    "answerIndex": 1,
+    "basePoints": 90,
+    "hint": "Büyük sarı gezegen"
+  },
+  {
+    "id": 21,
+    "category": "Tarih",
+    "question": "Amerika kıtasını Avrupa’ya tanıtan kaşif kimdir?",
+    "options": [
+      "Marco Polo",
+      "Christopher Columbus",
+      "Vasco da Gama",
+      "Ferdinand Magellan"
+    ],
+    "answerIndex": 1,
+    "basePoints": 85,
+    "hint": "1492"
+  },
+  {
+    "id": 22,
+    "category": "Spor",
+    "question": "Olimpiyat Oyunları kaç yılda bir düzenlenir?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 2,
+    "basePoints": 74,
+    "hint": "Yaz ve Kış ayrı yapılır"
+  },
+  {
+    "id": 23,
+    "category": "Genel Kültür",
+    "question": "En uzun süre tahtta kalan İngiliz hükümdarı kimdir?",
+    "options": ["II. Elizabeth", "Victoria", "I. Elizabeth", "III. George"],
+    "answerIndex": 0,
+    "basePoints": 83,
+    "hint": "2022 yılında vefat etti"
+  },
+  {
+    "id": 24,
+    "category": "Bilim",
+    "question": "Ses dalgalarının boşlukta yayılamamasının sebebi nedir?",
+    "options": [
+      "Basınç farkı yok",
+      "Tanecik yok",
+      "Sıcaklık düşük",
+      "Işık engelliyor"
+    ],
+    "answerIndex": 1,
+    "basePoints": 78,
+    "hint": "Titreşimleri iletecek ortam yok"
+  },
+  {
+    "id": 25,
+    "category": "Tarih",
+    "question": "Fransız İhtilali hangi yılda başlamıştır?",
+    "options": ["1776", "1789", "1804", "1815"],
+    "answerIndex": 1,
+    "basePoints": 88,
+    "hint": "18. yüzyıl sonu"
+  },
+  {
+    "id": 26,
+    "category": "Spor",
+    "question": "FIFA Dünya Kupası'nı en fazla kazanan ülke hangisidir?",
+    "options": ["İtalya", "Arjantin", "Brezilya", "Almanya"],
+    "answerIndex": 2,
+    "basePoints": 90,
+    "hint": "5 kez kazandı"
+  },
+  {
+    "id": 27,
+    "category": "Genel Kültür",
+    "question": "Türkiye'nin en uzun nehri hangisidir?",
+    "options": ["Kızılırmak", "Yeşilırmak", "Sakarya", "Meriç"],
+    "answerIndex": 0,
+    "basePoints": 75,
+    "hint": "Kaynağı Sivas'tadır"
+  },
+  {
+    "id": 28,
+    "category": "Bilim",
+    "question": "Atom numarası 1 olan element hangisidir?",
+    "options": ["Helyum", "Oksijen", "Hidrojen", "Azot"],
+    "answerIndex": 2,
+    "basePoints": 70,
+    "hint": "En hafif element"
+  },
+  {
+    "id": 29,
+    "category": "Tarih",
+    "question": "Kurtuluş Savaşı hangi antlaşma ile resmen sona ermiştir?",
+    "options": ["Sevr", "Lozan", "Ankara", "Mondros"],
+    "answerIndex": 1,
+    "basePoints": 84,
+    "hint": "1923 yılında imzalandı"
+  },
+  {
+    "id": 30,
+    "category": "Spor",
+    "question": "Voleybol maçını kazanmak için bir takımın kaç set alması gerekir?",
+    "options": ["2", "3", "4", "5"],
+    "answerIndex": 1,
+    "basePoints": 76,
+    "hint": "En iyi 5 set üzerinden oynanır"
+  },
+  {
+    "id": 31,
+    "category": "Genel Kültür",
+    "question": "Hangi ülkenin bayrağında beyaz zemin üzerinde kırmızı bir daire bulunur?",
+    "options": ["Japonya", "Bangladeş", "İsviçre", "Kanada"],
+    "answerIndex": 0,
+    "basePoints": 79,
+    "hint": "Güneşin doğduğu ülke"
+  },
+  {
+    "id": 32,
+    "category": "Bilim",
+    "question": "En büyük memeli hayvan hangisidir?",
+    "options": ["Fil", "Balina Köpekbalığı", "Mavi Balina", "Gergedan"],
+    "answerIndex": 2,
+    "basePoints": 87,
+    "hint": "Denizde yaşar"
+  },
+  {
+    "id": 33,
+    "category": "Tarih",
+    "question": "Berlin Duvarı hangi yıl yıkılmıştır?",
+    "options": ["1987", "1989", "1991", "1993"],
+    "answerIndex": 1,
+    "basePoints": 80,
+    "hint": "Soğuk Savaş'ın sonlarına doğru"
+  },
+  {
+    "id": 34,
+    "category": "Spor",
+    "question": "Maraton koşusunun resmi mesafesi nedir?",
+    "options": ["40 km", "41,195 km", "42,195 km", "43 km"],
+    "answerIndex": 2,
+    "basePoints": 85,
+    "hint": "42 km'nin biraz üzerinde"
+  },
+  {
+    "id": 35,
+    "category": "Genel Kültür",
+    "question": "Avrupa Birliği'nin merkezi hangi şehirdedir?",
+    "options": ["Paris", "Berlin", "Brüksel", "Amsterdam"],
+    "answerIndex": 2,
+    "basePoints": 74,
+    "hint": "Belçika'nın başkenti"
+  },
+  {
+    "id": 36,
+    "category": "Bilim",
+    "question": "Yerçekimi ivmesi yaklaşık olarak kaç m/s²'dir?",
+    "options": ["8,8", "9,8", "10,8", "11,8"],
+    "answerIndex": 1,
+    "basePoints": 83,
+    "hint": "10'a yakın"
+  },
+  {
+    "id": 37,
+    "category": "Tarih",
+    "question": "Çanakkale Savaşı hangi yıl başlamıştır?",
+    "options": ["1914", "1915", "1916", "1917"],
+    "answerIndex": 1,
+    "basePoints": 88,
+    "hint": "Birinci Dünya Savaşı sırasında"
+  },
+  {
+    "id": 38,
+    "category": "Spor",
+    "question": "NBA tarihinin en çok sayı atan oyuncusu kimdir?",
+    "options": [
+      "LeBron James",
+      "Michael Jordan",
+      "Kareem Abdul-Jabbar",
+      "Kobe Bryant"
+    ],
+    "answerIndex": 0,
+    "basePoints": 89,
+    "hint": "Hâlâ aktif oynuyor"
   }
 ]

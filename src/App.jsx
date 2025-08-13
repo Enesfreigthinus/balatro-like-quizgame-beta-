@@ -16,6 +16,7 @@ import { AllEffects, computeScoreDelta } from "./game/effects.js";
 export default function App() {
   const [state, setState] = useState(makeInitialState());
   const [flags, setFlags] = useState([]);
+  const [scoreDelta, setScoreDelta] = useState(0);
   const boss = isBossRound(state.questionIndex);
 
   const q = useMemo(
@@ -31,8 +32,11 @@ export default function App() {
   );
 
   function playCard(card) {
-    // Add effect flag for current question only; remove after answer
-    setFlags((prev) => [...prev, card.effect]);
+    // Only allow one joker per question
+    setFlags((prev) => {
+      if (prev.length > 0) return prev;
+      return [...prev, card.effect];
+    });
     // Remove the played card from hand (consumable for prototype)
     setState((s) => ({
       ...s,
@@ -51,6 +55,7 @@ export default function App() {
       state.chain + (correct ? 1 : 0)
     );
 
+    setScoreDelta(delta);
     setState((s) => {
       let newScore = s.score + delta;
       let newChain = correct ? s.chain + 1 : 0;
@@ -104,6 +109,7 @@ export default function App() {
         coins={state.coins}
         chain={state.chain}
         questionNumber={state.questionIndex + 1}
+        scoreDelta={scoreDelta}
       />
 
       <div className="row" style={{ marginTop: 16 }}>
