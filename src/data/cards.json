@@ -1,0 +1,58 @@
+[
+  {
+    "id": "hint",
+    "name": "Hint",
+    "rarity": "common",
+    "description": "Reveals a helpful hint.",
+    "cost": 50,
+    "effect": "HINT"
+  },
+  {
+    "id": "fifty",
+    "name": "50/50",
+    "rarity": "common",
+    "description": "Eliminates two wrong options.",
+    "cost": 60,
+    "effect": "ELIMINATE_TWO"
+  },
+  {
+    "id": "extraTime",
+    "name": "+5s",
+    "rarity": "common",
+    "description": "Adds +5 seconds.",
+    "cost": 40,
+    "effect": "EXTRA_TIME"
+  },
+  {
+    "id": "x2",
+    "name": "x2 Multiplier",
+    "rarity": "rare",
+    "description": "x2 points if correct, x2 penalty if wrong.",
+    "cost": 120,
+    "effect": "MULTIPLIER_X2"
+  },
+  {
+    "id": "chain",
+    "name": "Chain Booster",
+    "rarity": "rare",
+    "description": "+20 points per correct streak length.",
+    "cost": 110,
+    "effect": "CHAIN_BOOST"
+  },
+  {
+    "id": "blind",
+    "name": "Blind Guess",
+    "rarity": "epic",
+    "description": "Answer without options for x5 points.",
+    "cost": 200,
+    "effect": "BLIND_GUESS"
+  },
+  {
+    "id": "timePressure",
+    "name": "Time Pressure",
+    "rarity": "rare",
+    "description": "Halves timer, +50% points if correct.",
+    "cost": 100,
+    "effect": "TIME_PRESSURE"
+  }
+]

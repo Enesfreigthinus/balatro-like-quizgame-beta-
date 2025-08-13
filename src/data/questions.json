@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "category": "Bilim",
+    "question": "Aya ilk adım atan astronotun adı nedir?",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Yuri Gagarin",
+      "Alan Shepard"
+    ],
+    "answerIndex": 0,
+    "basePoints": 100
+  },
+  {
+    "id": 2,
+    "category": "Genel",
+    "question": "Hangi ülke İstanbul'a aittir?",
+    "options": ["Greece", "Turkey", "Azerbaijan", "Bulgaria"],
+    "answerIndex": 1,
+    "basePoints": 80
+  },
+  {
+    "id": 3,
+    "category": "Spor",
+    "question": "Bir futbol maçında bir takım en fazla kaç oyuncuyla sahada bulunabilir?",
+    "options": ["9", "10", "11", "12"],
+    "answerIndex": 2,
+    "basePoints": 90
+  }
+]
